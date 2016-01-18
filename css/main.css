@@ -23,7 +23,7 @@ h1 {
 }
 
 hr {
-	color: teal;
+	background: teal;
 	height: 1px;
 	background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
