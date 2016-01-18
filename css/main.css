@@ -16,3 +16,20 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.btn {
+	background-color: turquoise;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 5px;
+	margin-bottom: .5em;
+	display: inline-block;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+	background-color: yellowgreen;
+}
