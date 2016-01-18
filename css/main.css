@@ -17,6 +17,17 @@ html {
 	box-sizing: inherit;
 }
 
+h1 {
+	color: turquoise;
+	font-family: 'Franklin Gothic', Helvetica, sans-serif;
+}
+
+hr {
+	color: teal;
+	height: 1px;
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
 .btn {
 	background-color: turquoise;
 	color: #fff;
@@ -25,7 +36,7 @@ html {
 	padding: .5em 1em;
 	border-radius: 5px;
 	margin-bottom: .5em;
-	display: inline-block;
+	display: block;
 }
 
 .btn:hover,
